@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Simple Snake Canvas Game</title>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="../src/options.js"></script>
+	<script src="../src/canvas-snake.js"></script>
+</head>
+
+<body>
+	<canvas id="canvas"></canvas>
+	<div id="game-text"></div>
+
+	<script>
+		// Override options.js
+		var options = {
+			canvasWidth: 500,
+			canvasHeight: 500,
+			frameLength: 8,
+			blocks: 17,
+			speedFactor: 1.1
+		};
+		window.onload = function() {
+			// Initialize Game Object and Start Game
+			window.mySnake = new Game("canvas", options);
+		}
+	</script>
+</body>
+
+</html>
