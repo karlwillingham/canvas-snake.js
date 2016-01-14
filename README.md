@@ -8,4 +8,4 @@
 
 ## License
 
-canvas-snake.js is available under the [MIT license](https://github.com/karlwillingham/canvas-snakes.js/LICENSE.md).
+canvas-snake.js is available under the [MIT license](https://github.com/karlwillingham/canvas-snake.js/blob/master/LICENSE).
