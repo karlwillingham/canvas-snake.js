@@ -4,7 +4,6 @@
  *
  * Copyright 2016 Karl Willingham
  * Released under the MIT license
- * https://github.com/karlwillingham/canvas-snake.js/LICENSE.md
  */
 
 // Constants
